@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743431676601",
+    "project_id": "allinonechat-6ec6d",
+    "storage_bucket": "allinonechat-6ec6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743431676601:android:53a5cadef0965b15c2b168",
+        "android_client_info": {
+          "package_name": "com.converter.allinonechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743431676601-ura5c8r2s7c3qu4ogu39frfcu531vcst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPmkW5cbTTEszHFNH98Megmb_DYn7N3LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743431676601-ura5c8r2s7c3qu4ogu39frfcu531vcst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

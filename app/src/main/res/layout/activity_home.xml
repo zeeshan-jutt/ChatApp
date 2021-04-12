@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:id="@+id/toolbar"/>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50sp"-->
+<!--        android:gravity="right"-->
+<!--        android:layout_below="@+id/toolbar1"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="@color/Blue">-->
+
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/options"-->
+<!--            android:layout_width="30sp"-->
+<!--            android:layout_height="30sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/nav_options"-->
+<!--            android:layout_margin="5sp"-->
+<!--            app:tint="@color/white" />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/app_name"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginLeft="15sp"-->
+<!--            />-->
+
+<!--        <androidx.appcompat.widget.SearchView-->
+<!--            android:layout_width="40sp"-->
+<!--            android:layout_height="40sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_margin="5sp"-->
+<!--            android:backgroundTint="@color/white"/>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_Setting"-->
+<!--            android:layout_width="30sp"-->
+<!--            android:layout_height="30sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/settinglogo"-->
+<!--            android:layout_marginRight="20sp"-->
+<!--            app:tint="#515151" />-->
+<!--        <ImageView-->
+<!--            android:id="@+id/Logout"-->
+<!--            android:layout_width="30sp"-->
+<!--            android:layout_height="30sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/logout"-->
+<!--            android:layout_marginRight="20sp"-->
+<!--            app:tint="@color/white" />-->
+
+
+
+<!--    </LinearLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/UserRecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        />
+
+
+
+</RelativeLayout>
